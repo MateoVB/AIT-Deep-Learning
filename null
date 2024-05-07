@@ -1,0 +1,226 @@
+Requirement already satisfied: wget in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (3.2)
+Requirement already satisfied: install in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (1.3.5)
+Collecting chromadb
+  Downloading chromadb-0.5.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting build>=1.0.3 (from chromadb)
+  Downloading build-1.2.1-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: requests>=2.28 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (2.31.0)
+Requirement already satisfied: pydantic>=1.9 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (2.7.1)
+Collecting chroma-hnswlib==0.7.3 (from chromadb)
+  Downloading chroma-hnswlib-0.7.3.tar.gz (31 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting fastapi>=0.95.2 (from chromadb)
+  Downloading fastapi-0.110.3-py3-none-any.whl.metadata (24 kB)
+Collecting uvicorn>=0.18.3 (from uvicorn[standard]>=0.18.3->chromadb)
+  Downloading uvicorn-0.29.0-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: numpy>=1.22.5 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (1.26.4)
+Collecting posthog>=2.4.0 (from chromadb)
+  Downloading posthog-3.5.0-py2.py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: typing-extensions>=4.5.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (4.10.0)
+Collecting onnxruntime>=1.14.1 (from chromadb)
+  Downloading onnxruntime-1.17.3-cp312-cp312-macosx_11_0_universal2.whl.metadata (4.4 kB)
+Collecting opentelemetry-api>=1.2.0 (from chromadb)
+  Downloading opentelemetry_api-1.24.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting opentelemetry-exporter-otlp-proto-grpc>=1.2.0 (from chromadb)
+  Downloading opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-instrumentation-fastapi>=0.41b0 (from chromadb)
+  Downloading opentelemetry_instrumentation_fastapi-0.45b0-py3-none-any.whl.metadata (2.0 kB)
+Collecting opentelemetry-sdk>=1.2.0 (from chromadb)
+  Downloading opentelemetry_sdk-1.24.0-py3-none-any.whl.metadata (1.4 kB)
+Requirement already satisfied: tokenizers>=0.13.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (0.15.2)
+Collecting pypika>=0.48.9 (from chromadb)
+  Downloading PyPika-0.48.9.tar.gz (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.3/67.3 kB 198.9 kB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: tqdm>=4.65.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (4.66.2)
+Requirement already satisfied: overrides>=7.3.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (7.7.0)
+Collecting importlib-resources (from chromadb)
+  Downloading importlib_resources-6.4.0-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: grpcio>=1.58.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (1.62.1)
+Collecting bcrypt>=4.0.1 (from chromadb)
+  Downloading bcrypt-4.1.2-cp39-abi3-macosx_10_12_universal2.whl.metadata (9.5 kB)
+Collecting typer>=0.9.0 (from chromadb)
+  Downloading typer-0.12.3-py3-none-any.whl.metadata (15 kB)
+Collecting kubernetes>=28.1.0 (from chromadb)
+  Downloading kubernetes-29.0.0-py2.py3-none-any.whl.metadata (1.5 kB)
+Requirement already satisfied: tenacity>=8.2.3 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (8.2.3)
+Requirement already satisfied: PyYAML>=6.0.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (6.0.1)
+Collecting mmh3>=4.0.1 (from chromadb)
+  Downloading mmh3-4.1.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (13 kB)
+Requirement already satisfied: orjson>=3.9.12 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from chromadb) (3.10.2)
+Requirement already satisfied: packaging>=19.1 in /Users/mvelarde/Library/Python/3.12/lib/python/site-packages (from build>=1.0.3->chromadb) (23.2)
+Collecting pyproject_hooks (from build>=1.0.3->chromadb)
+  Downloading pyproject_hooks-1.1.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting starlette<0.38.0,>=0.37.2 (from fastapi>=0.95.2->chromadb)
+  Downloading starlette-0.37.2-py3-none-any.whl.metadata (5.9 kB)
+Requirement already satisfied: certifi>=14.05.14 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from kubernetes>=28.1.0->chromadb) (2024.2.2)
+Requirement already satisfied: six>=1.9.0 in /Users/mvelarde/Library/Python/3.12/lib/python/site-packages (from kubernetes>=28.1.0->chromadb) (1.16.0)
+Requirement already satisfied: python-dateutil>=2.5.3 in /Users/mvelarde/Library/Python/3.12/lib/python/site-packages (from kubernetes>=28.1.0->chromadb) (2.9.0.post0)
+Collecting google-auth>=1.0.1 (from kubernetes>=28.1.0->chromadb)
+  Downloading google_auth-2.29.0-py2.py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: websocket-client!=0.40.0,!=0.41.*,!=0.42.*,>=0.32.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from kubernetes>=28.1.0->chromadb) (1.7.0)
+Collecting requests-oauthlib (from kubernetes>=28.1.0->chromadb)
+  Downloading requests_oauthlib-2.0.0-py2.py3-none-any.whl.metadata (11 kB)
+Collecting oauthlib>=3.2.2 (from kubernetes>=28.1.0->chromadb)
+  Downloading oauthlib-3.2.2-py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: urllib3>=1.24.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from kubernetes>=28.1.0->chromadb) (2.2.1)
+Collecting coloredlogs (from onnxruntime>=1.14.1->chromadb)
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: flatbuffers in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from onnxruntime>=1.14.1->chromadb) (24.3.7)
+Requirement already satisfied: protobuf in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from onnxruntime>=1.14.1->chromadb) (4.25.3)
+Requirement already satisfied: sympy in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from onnxruntime>=1.14.1->chromadb) (1.12)
+Collecting deprecated>=1.2.6 (from opentelemetry-api>=1.2.0->chromadb)
+  Downloading Deprecated-1.2.14-py2.py3-none-any.whl.metadata (5.4 kB)
+Collecting importlib-metadata<=7.0,>=6.0 (from opentelemetry-api>=1.2.0->chromadb)
+  Downloading importlib_metadata-7.0.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-grpc>=1.2.0->chromadb)
+  Downloading googleapis_common_protos-1.63.0-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting opentelemetry-exporter-otlp-proto-common==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc>=1.2.0->chromadb)
+  Downloading opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting opentelemetry-proto==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc>=1.2.0->chromadb)
+  Downloading opentelemetry_proto-1.24.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-instrumentation-asgi==0.45b0 (from opentelemetry-instrumentation-fastapi>=0.41b0->chromadb)
+  Downloading opentelemetry_instrumentation_asgi-0.45b0-py3-none-any.whl.metadata (1.9 kB)
+Collecting opentelemetry-instrumentation==0.45b0 (from opentelemetry-instrumentation-fastapi>=0.41b0->chromadb)
+  Downloading opentelemetry_instrumentation-0.45b0-py3-none-any.whl.metadata (6.1 kB)
+Collecting opentelemetry-semantic-conventions==0.45b0 (from opentelemetry-instrumentation-fastapi>=0.41b0->chromadb)
+  Downloading opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-util-http==0.45b0 (from opentelemetry-instrumentation-fastapi>=0.41b0->chromadb)
+  Downloading opentelemetry_util_http-0.45b0-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: setuptools>=16.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from opentelemetry-instrumentation==0.45b0->opentelemetry-instrumentation-fastapi>=0.41b0->chromadb) (69.1.1)
+Requirement already satisfied: wrapt<2.0.0,>=1.0.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from opentelemetry-instrumentation==0.45b0->opentelemetry-instrumentation-fastapi>=0.41b0->chromadb) (1.16.0)
+Collecting asgiref~=3.0 (from opentelemetry-instrumentation-asgi==0.45b0->opentelemetry-instrumentation-fastapi>=0.41b0->chromadb)
+  Downloading asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting monotonic>=1.5 (from posthog>=2.4.0->chromadb)
+  Downloading monotonic-1.6-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting backoff>=1.10.0 (from posthog>=2.4.0->chromadb)
+  Downloading backoff-2.2.1-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: annotated-types>=0.4.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pydantic>=1.9->chromadb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.18.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pydantic>=1.9->chromadb) (2.18.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests>=2.28->chromadb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from requests>=2.28->chromadb) (3.6)
+Requirement already satisfied: huggingface_hub<1.0,>=0.16.4 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from tokenizers>=0.13.2->chromadb) (0.21.4)
+Requirement already satisfied: click>=8.0.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from typer>=0.9.0->chromadb) (8.1.7)
+Collecting shellingham>=1.3.0 (from typer>=0.9.0->chromadb)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: rich>=10.11.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from typer>=0.9.0->chromadb) (13.7.1)
+Requirement already satisfied: h11>=0.8 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from uvicorn>=0.18.3->uvicorn[standard]>=0.18.3->chromadb) (0.14.0)
+Collecting httptools>=0.5.0 (from uvicorn[standard]>=0.18.3->chromadb)
+  Downloading httptools-0.6.1-cp312-cp312-macosx_10_9_universal2.whl.metadata (3.6 kB)
+Collecting python-dotenv>=0.13 (from uvicorn[standard]>=0.18.3->chromadb)
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]>=0.18.3->chromadb)
+  Downloading uvloop-0.19.0-cp312-cp312-macosx_10_9_universal2.whl.metadata (4.9 kB)
+Collecting watchfiles>=0.13 (from uvicorn[standard]>=0.18.3->chromadb)
+  Downloading watchfiles-0.21.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (4.9 kB)
+Requirement already satisfied: websockets>=10.4 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from uvicorn[standard]>=0.18.3->chromadb) (12.0)
+Collecting cachetools<6.0,>=2.0.0 (from google-auth>=1.0.1->kubernetes>=28.1.0->chromadb)
+  Downloading cachetools-5.3.3-py3-none-any.whl.metadata (5.3 kB)
+Collecting pyasn1-modules>=0.2.1 (from google-auth>=1.0.1->kubernetes>=28.1.0->chromadb)
+  Downloading pyasn1_modules-0.4.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting rsa<5,>=3.1.4 (from google-auth>=1.0.1->kubernetes>=28.1.0->chromadb)
+  Downloading rsa-4.9-py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: filelock in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from huggingface_hub<1.0,>=0.16.4->tokenizers>=0.13.2->chromadb) (3.13.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from huggingface_hub<1.0,>=0.16.4->tokenizers>=0.13.2->chromadb) (2024.2.0)
+Collecting zipp>=0.5 (from importlib-metadata<=7.0,>=6.0->opentelemetry-api>=1.2.0->chromadb)
+  Downloading zipp-3.18.1-py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from rich>=10.11.0->typer>=0.9.0->chromadb) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /Users/mvelarde/Library/Python/3.12/lib/python/site-packages (from rich>=10.11.0->typer>=0.9.0->chromadb) (2.17.2)
+Requirement already satisfied: anyio<5,>=3.4.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from starlette<0.38.0,>=0.37.2->fastapi>=0.95.2->chromadb) (4.3.0)
+Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime>=1.14.1->chromadb)
+  Downloading humanfriendly-10.0-py2.py3-none-any.whl.metadata (9.2 kB)
+Requirement already satisfied: mpmath>=0.19 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from sympy->onnxruntime>=1.14.1->chromadb) (1.3.0)
+Requirement already satisfied: sniffio>=1.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from anyio<5,>=3.4.0->starlette<0.38.0,>=0.37.2->fastapi>=0.95.2->chromadb) (1.3.1)
+Requirement already satisfied: mdurl~=0.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer>=0.9.0->chromadb) (0.1.2)
+Collecting pyasn1<0.7.0,>=0.4.6 (from pyasn1-modules>=0.2.1->google-auth>=1.0.1->kubernetes>=28.1.0->chromadb)
+  Downloading pyasn1-0.6.0-py2.py3-none-any.whl.metadata (8.3 kB)
+Downloading chromadb-0.5.0-py3-none-any.whl (526 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 526.8/526.8 kB 959.1 kB/s eta 0:00:00
+Downloading bcrypt-4.1.2-cp39-abi3-macosx_10_12_universal2.whl (528 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 528.5/528.5 kB 929.9 kB/s eta 0:00:00
+Downloading build-1.2.1-py3-none-any.whl (21 kB)
+Downloading fastapi-0.110.3-py3-none-any.whl (91 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.8/91.8 kB 623.7 kB/s eta 0:00:00
+Downloading kubernetes-29.0.0-py2.py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 973.9 kB/s eta 0:00:00
+Downloading mmh3-4.1.0-cp312-cp312-macosx_11_0_arm64.whl (30 kB)
+Downloading onnxruntime-1.17.3-cp312-cp312-macosx_11_0_universal2.whl (14.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.8/14.8 MB 774.1 kB/s eta 0:00:00
+Downloading opentelemetry_api-1.24.0-py3-none-any.whl (60 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.1/60.1 kB 394.8 kB/s eta 0:00:00
+Downloading opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl (18 kB)
+Downloading opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl (17 kB)
+Downloading opentelemetry_proto-1.24.0-py3-none-any.whl (50 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.8/50.8 kB 344.6 kB/s eta 0:00:00
+Downloading opentelemetry_instrumentation_fastapi-0.45b0-py3-none-any.whl (11 kB)
+Downloading opentelemetry_instrumentation-0.45b0-py3-none-any.whl (28 kB)
+Downloading opentelemetry_instrumentation_asgi-0.45b0-py3-none-any.whl (14 kB)
+Downloading opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl (36 kB)
+Downloading opentelemetry_util_http-0.45b0-py3-none-any.whl (6.9 kB)
+Downloading opentelemetry_sdk-1.24.0-py3-none-any.whl (106 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.1/106.1 kB 364.0 kB/s eta 0:00:00
+Downloading posthog-3.5.0-py2.py3-none-any.whl (41 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.3/41.3 kB 169.8 kB/s eta 0:00:00
+Downloading typer-0.12.3-py3-none-any.whl (47 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.2/47.2 kB 286.3 kB/s eta 0:00:00
+Downloading uvicorn-0.29.0-py3-none-any.whl (60 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.8/60.8 kB 396.7 kB/s eta 0:00:00
+Downloading importlib_resources-6.4.0-py3-none-any.whl (38 kB)
+Downloading backoff-2.2.1-py3-none-any.whl (15 kB)
+Downloading Deprecated-1.2.14-py2.py3-none-any.whl (9.6 kB)
+Downloading google_auth-2.29.0-py2.py3-none-any.whl (189 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 189.2/189.2 kB 602.9 kB/s eta 0:00:00
+Downloading googleapis_common_protos-1.63.0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.1/229.1 kB 663.5 kB/s eta 0:00:00
+Downloading httptools-0.6.1-cp312-cp312-macosx_10_9_universal2.whl (146 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.4/146.4 kB 414.6 kB/s eta 0:00:00
+Downloading importlib_metadata-7.0.0-py3-none-any.whl (23 kB)
+Downloading monotonic-1.6-py2.py3-none-any.whl (8.2 kB)
+Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 kB 623.8 kB/s eta 0:00:00
+Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading starlette-0.37.2-py3-none-any.whl (71 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.9/71.9 kB 767.5 kB/s eta 0:00:00
+Downloading uvloop-0.19.0-cp312-cp312-macosx_10_9_universal2.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 804.8 kB/s eta 0:00:00
+Downloading watchfiles-0.21.0-cp312-cp312-macosx_11_0_arm64.whl (417 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.3/417.3 kB 635.9 kB/s eta 0:00:00
+Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB 629.1 kB/s eta 0:00:00
+Downloading pyproject_hooks-1.1.0-py3-none-any.whl (9.2 kB)
+Downloading requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Downloading asgiref-3.8.1-py3-none-any.whl (23 kB)
+Downloading cachetools-5.3.3-py3-none-any.whl (9.3 kB)
+Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 393.6 kB/s eta 0:00:00
+Downloading pyasn1_modules-0.4.0-py3-none-any.whl (181 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.2/181.2 kB 590.2 kB/s eta 0:00:00
+Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Downloading zipp-3.18.1-py3-none-any.whl (8.2 kB)
+Downloading pyasn1-0.6.0-py2.py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.3/85.3 kB 371.1 kB/s eta 0:00:00
+Building wheels for collected packages: chroma-hnswlib, pypika
+  Building wheel for chroma-hnswlib (pyproject.toml): started
+  Building wheel for chroma-hnswlib (pyproject.toml): finished with status 'done'
+  Created wheel for chroma-hnswlib: filename=chroma_hnswlib-0.7.3-cp312-cp312-macosx_10_9_universal2.whl size=379252 sha256=a05c062974ba10a4c2b528d20d62fd9dde0de44c0df5bc26992be2971156f895
+  Stored in directory: /Users/mvelarde/Library/Caches/pip/wheels/6d/14/b5/68c4f2e056600c0348a94efba92dc975686ab72b714e0ca3d6
+  Building wheel for pypika (pyproject.toml): started
+  Building wheel for pypika (pyproject.toml): finished with status 'done'
+  Created wheel for pypika: filename=PyPika-0.48.9-py2.py3-none-any.whl size=53724 sha256=9b9c37fa5e9d0e43caf6e0849a863772237574bf2990614d256412fd0cdb1b7f
+  Stored in directory: /Users/mvelarde/Library/Caches/pip/wheels/d5/3d/69/8d68d249cd3de2584f226e27fd431d6344f7d70fd856ebd01b
+Successfully built chroma-hnswlib pypika
+Installing collected packages: pypika, monotonic, mmh3, zipp, uvloop, uvicorn, shellingham, python-dotenv, pyproject_hooks, pyasn1, opentelemetry-util-http, opentelemetry-semantic-conventions, opentelemetry-proto, oauthlib, importlib-resources, humanfriendly, httptools, googleapis-common-protos, deprecated, chroma-hnswlib, cachetools, bcrypt, backoff, asgiref, watchfiles, starlette, rsa, requests-oauthlib, pyasn1-modules, posthog, opentelemetry-exporter-otlp-proto-common, importlib-metadata, coloredlogs, build, typer, opentelemetry-api, onnxruntime, google-auth, fastapi, opentelemetry-sdk, opentelemetry-instrumentation, kubernetes, opentelemetry-instrumentation-asgi, opentelemetry-exporter-otlp-proto-grpc, opentelemetry-instrumentation-fastapi, chromadb
+Successfully installed asgiref-3.8.1 backoff-2.2.1 bcrypt-4.1.2 build-1.2.1 cachetools-5.3.3 chroma-hnswlib-0.7.3 chromadb-0.5.0 coloredlogs-15.0.1 deprecated-1.2.14 fastapi-0.110.3 google-auth-2.29.0 googleapis-common-protos-1.63.0 httptools-0.6.1 humanfriendly-10.0 importlib-metadata-7.0.0 importlib-resources-6.4.0 kubernetes-29.0.0 mmh3-4.1.0 monotonic-1.6 oauthlib-3.2.2 onnxruntime-1.17.3 opentelemetry-api-1.24.0 opentelemetry-exporter-otlp-proto-common-1.24.0 opentelemetry-exporter-otlp-proto-grpc-1.24.0 opentelemetry-instrumentation-0.45b0 opentelemetry-instrumentation-asgi-0.45b0 opentelemetry-instrumentation-fastapi-0.45b0 opentelemetry-proto-1.24.0 opentelemetry-sdk-1.24.0 opentelemetry-semantic-conventions-0.45b0 opentelemetry-util-http-0.45b0 posthog-3.5.0 pyasn1-0.6.0 pyasn1-modules-0.4.0 pypika-0.48.9 pyproject_hooks-1.1.0 python-dotenv-1.0.1 requests-oauthlib-2.0.0 rsa-4.9 shellingham-1.5.4 starlette-0.37.2 typer-0.12.3 uvicorn-0.29.0 uvloop-0.19.0 watchfiles-0.21.0 zipp-3.18.1
